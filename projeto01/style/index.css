@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img1 {
+    margin: 0rem 0rem 3rem 49rem;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;;
+}
+
+p, a{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;;
+}
+
+strong {
+    color: #7D7987
+}
+
+#yellow {
+    color:#FF9900
+}
+
+a{
+    margin: 2rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    top: 20rem;
+    width: 593px;
+    margin: 10rem 0rem 0rem 50rem;
+}
+
+footer img{
+    position: fixed;
+    left: 115rem;
+}
