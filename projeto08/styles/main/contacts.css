@@ -1,0 +1,56 @@
+.contacts-container{
+    height: 7rem;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    gap: 1rem;
+    border: #CCC;
+}
+
+.contacts-container:hover{
+    background-color: #E9EBEB;
+}
+.contacts-container-2{
+    background-color: #ffffff;
+}
+
+
+
+.contacts-container img{
+    height: 5em ;
+    border-radius: 50%;
+    background-color: #CCC;
+    margin-left: 1rem;
+}
+
+
+.text-container{
+    align-items: center;
+    display: flex;
+    gap: 2px;
+}
+.text-container p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.fa-check-double {
+    margin-right: 5px;
+    font-size: 1.5rem;
+    color: #4FC3F7;
+}
+
+.text-container2 h1{
+    font-weight: 400;
+}
+
+.text-container3 {
+    display: flex;
+    
+}
+
+.text-container3 p {
+    font-size: 1.5rem;
+    color: rgb(190, 190, 190);
+    margin-left: 15rem;
+}

@@ -1,0 +1,10 @@
+.chatbox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.chatbox p {
+    font-size: large;
+    
+}
