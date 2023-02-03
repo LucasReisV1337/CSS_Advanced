@@ -1,0 +1,39 @@
+
+
+.main{
+    width: 410px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .header {
+    height: 6rem;
+    background-color: #EEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main .header img{
+    width: auto;
+    margin-top: 8px;
+    height: 4rem;
+    background-color: #CCC;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.main .header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main .header ul li{
+    color: #80868A;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
