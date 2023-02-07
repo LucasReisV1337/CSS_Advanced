@@ -1,0 +1,15 @@
+header {
+    width: 100vw;
+    border-bottom: 1px solid #EBEBEB;
+    display: flex;
+    
+}
+
+.search-bar{
+    display: flex;
+}
+
+.utilites ul{
+    display: flex;
+    flex-direction: row;
+}
