@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
-    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;  
 }
 :root {
     font-size: 62.5%;   
@@ -16,8 +15,4 @@ ul{
 
 textarea:focus, input:focus, select:focus {
     outline: 0;
-}
-
-body{
-    display: flex;
 }

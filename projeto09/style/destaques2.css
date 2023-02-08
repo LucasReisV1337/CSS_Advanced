@@ -1,0 +1,27 @@
+.destaques2{
+    width: 100vw;
+    height: 45.8rem;
+    background: #F7F4F4;
+    border-radius: 0px;
+}
+
+
+
+.destaques2 p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+
+.img-txt h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #4F4C4C;
+}
