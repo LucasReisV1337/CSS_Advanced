@@ -24,9 +24,9 @@ header ul {
     font-size: 1.8rem;
     text-align: center;
     color: #FFFFFF;
-    gap: 4.6rem;
     display: flex;
-    margin-right: 10rem;
+    justify-content: space-around;
+    width: 60rem;
 }
 
 header ul li {
@@ -35,11 +35,6 @@ header ul li {
 header ul li:hover {
     color: #747373;
     transition: 0.5s;
-}
-header img {
-    width: 19.6rem;
-    height: 4.3rem;
-    
 }
 .central-main{
     display: flex;
@@ -52,7 +47,6 @@ header img {
     font-style: normal;
     font-weight: 700;
     font-size: 4rem;
-    line-height: 5.2rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -91,4 +85,49 @@ header img {
 .central-main a:hover{
     background-color: #7473736c;
     transition:0.5s;
+}
+
+
+/* Responsividade*/
+
+/* 768px Tablet*/
+@media (max-width: 768px)
+{
+    main{
+        background: #00161C;
+        border-radius: 0px;
+    }
+
+    main header{
+        display: flex;
+        flex-direction:column;
+        height: auto;
+        gap: 1rem;
+    }
+    main header img{
+        margin-bottom: 2rem;
+    }
+
+
+    .central-main{
+        text-align: center;
+    }
+
+    .central-main h1{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .central-main a {
+        margin: 1rem;
+    }
+
+}
+    
+
+
+/* 375px Mobile */
+@media (max-width: 375px)
+{
+  
 }
