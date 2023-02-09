@@ -1,0 +1,54 @@
+.sobre{
+    display: flex;
+    height: 59.5rem;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+
+.text-about-container h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4F4C4C;
+
+}
+
+.text-about-container p {
+    margin-top: 23px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+hr{
+    margin-top: 2.5rem ;
+    margin-bottom: 2.5rem ;
+}
+
+.img-container-sobre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-sobre p {
+    margin-top: 4rem;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #000000;
+}
+
+strong{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+color: #4F4C4C;
+}

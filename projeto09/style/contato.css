@@ -1,0 +1,112 @@
+.contato-container {
+  height: 55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.contato h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4f4c4c;
+}
+
+.contato p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+.contato a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 1.2rem;
+  color: #4f4c4c;
+  border: 1px solid #4f4c4c;
+  border-radius: 5px;
+  height: 5rem;
+}
+.contato a:hover{
+    background-color: #00000023;
+    transition:0.5s;
+}
+.institucional h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #4f4c4c;
+}
+
+
+
+.insitucional-main p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #666666;
+  margin-bottom: 3.5rem;
+}
+
+.insitucional-main h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: #666666;
+  margin-bottom: 3.5rem;
+}
+
+.insitucional-main h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #666666;
+  margin-bottom: 4px;
+}
+
+.insitucional-main a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;  
+    color: #0084FF;
+  }
+
+.video-iframe {
+  background-image: url("../img/video-iframe.svg");
+  height: 21rem;
+  width: 37.5rem;
+}
+
+
+.institucional-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 4rem;
+}

@@ -3,6 +3,8 @@
     height: 45.8rem;
     background: #F7F4F4;
     border-radius: 0px;
+    display: flex;
+    flex-direction: column;;
 }
 
 
@@ -14,14 +16,36 @@ font-weight: 400;
 font-size: 16px;
 line-height: 22px;
 color: #000000;
+
+}
+
+.img-txt{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-right: 16rem;
+    margin-bottom: 2rem;
+    
 }
 
 .img-txt h1{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 19px;
     text-transform: uppercase;
     color: #4F4C4C;
+}
+
+.img-supreme-container{
+    margin-top: 8.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

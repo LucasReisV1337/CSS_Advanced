@@ -1,0 +1,29 @@
+footer {
+    background: #333333;
+    border-radius: 0px;
+    height: 23.7rem;
+}
+
+.footer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.footer-container-1 ul {
+    display: flex;
+    gap: 3.2rem;
+}
+.footer-container-2{
+    margin-left: 5rem;
+}
+
+.footer-container-2 ul {
+    display: flex;
+    gap:2rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
