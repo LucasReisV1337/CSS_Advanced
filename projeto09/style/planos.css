@@ -105,4 +105,19 @@ margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
+
+@media (max-width: 768px){
+    .box2 {
+        order: 2;
+    }
+    .box1 {
+       margin-bottom: 2rem;
+    }
+    .planos{
+        height: auto;
+    }
+}
+

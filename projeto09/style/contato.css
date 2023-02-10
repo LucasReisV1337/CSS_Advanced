@@ -110,3 +110,21 @@
     width: 100vw;
     margin-top: 4rem;
 }
+
+@media (max-width: 375px){
+  aside img {
+      display: none;
+  }
+
+  .contato-container, .contato, .institucional, .institucional-container{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .footer-container, .footer-container-1, .footer-container-2, ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+}
